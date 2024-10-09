@@ -21,3 +21,9 @@ jobs:
       - name: Run build
         run: |
           npm run publish
+
+      - name: See artifact
+        run: |
+          D:
+          cd \a\test-build-electron-webpack\test-build-electron-webpack\out\make
+          dir
